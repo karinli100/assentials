@@ -1,0 +1,30 @@
+# Ignore system files
+*.log
+*.tmp
+*.bak
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+env/
+venv/
+Lib/
+Scripts/
+share/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Excel and temporary files
+~$*
+~*.*
+
+# Ignore all other files/folders not necessary for version control
+*.dist-info/
+*.egg-info/
+.pytest_cache/
+.vscode/
+.idea/

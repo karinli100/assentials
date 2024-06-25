@@ -1,7 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from PIL import Image
-
+# TODO make hexagon fild (size) with 2 inputs   x and y
+# make input as small diameter (not 2r)
+# angle input as degree, not radian
 def draw_hexagon(size, edge_length_m, pixel_size, rotation_angle=0):
     """
     Creates hexagon in a numpy array with a specified rotation angle.

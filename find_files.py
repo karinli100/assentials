@@ -1,5 +1,5 @@
 import os
-
+# TODO add vector with only names of the files
 def find_files(directory, file_extension):
     """
     Finds all files with the specified extension in the given directory and its subdirectories.
@@ -26,7 +26,7 @@ def find_files(directory, file_extension):
 directory = 'D:\\python_assentials'
 
 # Specify the file extension to look for
-file_extension = '.png'
+file_extension = 'png'
 
 # Get the list of files with the specified extension
 files = find_files(directory, file_extension)
